@@ -32,7 +32,7 @@ public class TestCampaign {
 
         open("/");
         sleep(10000);
-        $(By.id("Expertise")).shouldNotBe(Condition.visible);
+        $(By.id("Expertise")).shouldBe(Condition.visible);
         //String pngFileName = screenshot("Site_page");
 
     }
