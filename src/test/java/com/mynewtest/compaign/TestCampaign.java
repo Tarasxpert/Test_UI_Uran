@@ -19,8 +19,8 @@ public class TestCampaign {
     @BeforeMethod
     public void BeforeStart(){
         Configuration.baseUrl = "https://urancompany.com/";
-        Configuration.browser = "firefox";
-        Configuration.headless = true;
+        Configuration.browser = "chrome";
+        Configuration.headless = false;
         Configuration.browserSize = "1920x1080";
         Configuration.reportsFolder = "target/screenshots";
         //System.setProperty("selenide.browser", "chrome");
