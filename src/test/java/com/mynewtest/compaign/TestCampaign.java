@@ -21,7 +21,7 @@ public class TestCampaign {
         Configuration.baseUrl = "https://urancompany.com/";
         Configuration.browser = "chrome";
         Configuration.headless = false;
-        Configuration.browserSize = "1920x1080";
+        Configuration.browserSize = "1366x768";
         Configuration.reportsFolder = "target/screenshots";
         //System.setProperty("selenide.browser", "chrome");
         //System.setProperty("webdriver.chrome.driver", "chromedriver/chromedriver.exe");
