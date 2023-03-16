@@ -32,7 +32,7 @@ public class TestCampaign {
 
         open("/");
         sleep(10000);
-        String pngFileName = screenshot("Site_page");
+        //String pngFileName = screenshot("Site_page");
 
     }
 }
