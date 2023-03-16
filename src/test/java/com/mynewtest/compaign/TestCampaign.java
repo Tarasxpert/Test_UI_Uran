@@ -19,9 +19,12 @@ public class TestCampaign {
     @BeforeMethod
     public void BeforeStart(){
         Configuration.baseUrl = "https://urancompany.com/";
-        Configuration.browser = "chrome";
+        Configuration.browser = "firefox";
+        Configuration.headless = true;
         Configuration.browserSize = "1920x1080";
         Configuration.reportsFolder = "target/screenshots";
+        //System.setProperty("selenide.browser", "chrome");
+        //System.setProperty("webdriver.chrome.driver", "chromedriver/chromedriver.exe");
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
     }
     @Test(description = "Test main", enabled = true)
