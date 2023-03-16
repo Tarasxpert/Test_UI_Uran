@@ -18,7 +18,7 @@ import static com.codeborne.selenide.Selenide.*;
 public class TestCampaign {
     @BeforeMethod
     public void BeforeStart(){
-        Configuration.baseUrl = "https://www.cloudcampaign.com/";
+        Configuration.baseUrl = "https://urancompany.com/";
         Configuration.browser = "chrome";
         Configuration.browserSize = "1920x1080";
         Configuration.reportsFolder = "target/screenshots";
@@ -27,7 +27,7 @@ public class TestCampaign {
     @Test(description = "Test main", enabled = true)
     public void my_test1() {
 
-        open("https://urancompany.com/");
+        open("/");
         sleep(10000);
         String pngFileName = screenshot("Site_page");
 
